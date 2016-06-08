@@ -1,1 +1,1 @@
-{"OpenshiftServer":null,"ProjectName":"myfirstapp","BuildConfig":"aspnetcore-mongodb-ex","RouteURL":"http://aspnetcore-mongodb-ex-myfirstapp.cloudapps.example.com"}
+{"OpenshiftServer":null,"ProjectName":"sampleaspcore-mongodb","BuildConfig":"aspnetcore-mongodb-ex","RouteURL":"http://aspnetcore-mongodb-ex-sampleaspcore-mongodb.cloudapps.example.com"}
