@@ -1,13 +1,15 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8BE7A54C-98D7-473C-B3CC-066C0BC103B9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1BB1C2A2-46C9-4536-BEDE-95222D30A80A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BAC65D4A-FF64-4F26-AE63-6E0FD1F86B5B}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "mvc-mongodb-sample", "src\mvc-mongodb-sample.xproj", "{78627BB3-851E-4C1A-91C0-629FC7C15F8F}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "aspnetcore-mongodb-ex", "src\aspnetcore-mongodb-ex.xproj", "{78627BB3-851E-4C1A-91C0-629FC7C15F8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78627BB3-851E-4C1A-91C0-629FC7C15F8F} = {1BB1C2A2-46C9-4536-BEDE-95222D30A80A}
 	EndGlobalSection
 EndGlobal
