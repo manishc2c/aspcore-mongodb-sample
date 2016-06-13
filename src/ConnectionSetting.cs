@@ -25,7 +25,7 @@ namespace Click2Cloud.Samples.AspNetCore.MvcMongoDb
     public static class ConnectionSetting
     {
         //TODO: Provide Cluster IP of mongo db server 
-        private static string mongoDBClusterIP = "172.30.140.147";
+        private static string mongoDBClusterIP = "172.30.162.55";
 
         internal static string CONNECTION_STRING
         {
